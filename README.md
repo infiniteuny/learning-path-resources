@@ -1,4 +1,4 @@
-# girlscode_example
+# Intro-Flutter-Infinite
 
 A new Flutter project.
 
