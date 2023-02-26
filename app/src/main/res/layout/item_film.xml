@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_film"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/image_ex_film" />
+
+    <TextView
+        android:id="@+id/tv_title_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/tv_title_name_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_title"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="Avangers End Game" />
+
+    <TextView
+        android:id="@+id/tv_title_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/tv_title_name_film"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="Release Date:" />
+
+    <TextView
+        android:id="@+id/tv_date_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_date"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="2019-08-03" />
+
+    <TextView
+        android:id="@+id/tv_title_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_date_film"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="Release Date:" />
+
+    <TextView
+        android:id="@+id/tv_rating_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_rating"
+        android:textColor="@color/white"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/iv_film"
+        android:text="2019-08-03" />
+</RelativeLayout>
