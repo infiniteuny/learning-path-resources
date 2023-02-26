@@ -10,4 +10,5 @@
 
     <color name="green_premier">#4FCCA3</color>
     <color name="background">#242A32</color>
+    <color name="background_secondary">#3A3F47</color>
 </resources>
